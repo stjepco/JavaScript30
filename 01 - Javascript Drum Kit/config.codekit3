@@ -65,6 +65,69 @@
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/sounds\/boom.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/boom.wav",
+		"oF": 0
+		},
+	"\/sounds\/clap.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/clap.wav",
+		"oF": 0
+		},
+	"\/sounds\/hihat.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/hihat.wav",
+		"oF": 0
+		},
+	"\/sounds\/kick.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/kick.wav",
+		"oF": 0
+		},
+	"\/sounds\/openhat.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/openhat.wav",
+		"oF": 0
+		},
+	"\/sounds\/ride.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/ride.wav",
+		"oF": 0
+		},
+	"\/sounds\/snare.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/snare.wav",
+		"oF": 0
+		},
+	"\/sounds\/tink.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/tink.wav",
+		"oF": 0
+		},
+	"\/sounds\/tom.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sounds\/tom.wav",
+		"oF": 0
 		}
 	},
 "hooks": [
