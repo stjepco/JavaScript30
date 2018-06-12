@@ -1,1 +1,1 @@
-"use strict";function getKey(e){return document.querySelector('audio[data-key="'+e.keyCode+'"]')}window.addEventListener("keydown",function(e){var t=getKey(e);console.log(t)});
+"use strict";function getKey(e){return document.querySelector('audio[data-key="'+e.keyCode+'"]')}window.addEventListener("keydown",function(e){var t=getKey(e);console.log(t),t&&t.play()});
