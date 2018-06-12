@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/app-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -25,6 +35,16 @@
 		"oA": 0,
 		"oAP": "\/app.css.map",
 		"oF": 0
+		},
+	"\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/app-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
 		},
 	"\/app.styl": {
 		"aP": 1,
@@ -766,7 +786,7 @@
 			"optionString": "{'allowParens': false}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
