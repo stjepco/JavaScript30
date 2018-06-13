@@ -1,7 +1,7 @@
 
-/* line 19 : /Users/stjepan/Developer/wesbos/JavaScript30/01 - Javascript Drum Kit/app.styl */
+/* line 24 : /Users/stjepan/Developer/wesbos/JavaScript30/01 - Javascript Drum Kit/app.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/stjepan\/Developer\/wesbos\/JavaScript30\/01 - Javascript Drum Kit\/app\.styl}line{font-family:\0000319}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/stjepan\/Developer\/wesbos\/JavaScript30\/01 - Javascript Drum Kit\/app\.styl}line{font-family:\0000324}}
 
 /* line 1 : /Applications/CodeKit.app/Contents/Resources/engines/node_modules/stylus/lib/functions/index.styl */
 
@@ -10,40 +10,17 @@
 /* line 3 : /Users/stjepan/Developer/wesbos/JavaScript30/01 - Javascript Drum Kit/app.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/stjepan\/Developer\/wesbos\/JavaScript30\/01 - Javascript Drum Kit\/app\.styl}line{font-family:\000033}}
-html,
-body {
-  height: 100%;
-}
-
+html,body{height:100%}
 /* line 6 : /Users/stjepan/Developer/wesbos/JavaScript30/01 - Javascript Drum Kit/app.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/stjepan\/Developer\/wesbos\/JavaScript30\/01 - Javascript Drum Kit\/app\.styl}line{font-family:\000036}}
-.drum-keys {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+.drum-keys{margin:0 auto;height:100%;width:700px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;}
+/* line 14 : /Users/stjepan/Developer/wesbos/JavaScript30/01 - Javascript Drum Kit/app.styl */
 
-/* line 12 : /Users/stjepan/Developer/wesbos/JavaScript30/01 - Javascript Drum Kit/app.styl */
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/stjepan\/Developer\/wesbos\/JavaScript30\/01 - Javascript Drum Kit\/app\.styl}line{font-family:\0000314}}
+.drum-keys .key{width:60px;background-color:#ccc;display:inline-block;padding:5px;text-align:center;cursor:pointer;border-radius:3px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+/* line 23 : /Users/stjepan/Developer/wesbos/JavaScript30/01 - Javascript Drum Kit/app.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/stjepan\/Developer\/wesbos\/JavaScript30\/01 - Javascript Drum Kit\/app\.styl}line{font-family:\0000312}}
-.drum-keys .key {
-  background-color: #ccc;
-  display: inline-block;
-  padding: 5px;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 3px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/stjepan\/Developer\/wesbos\/JavaScript30\/01 - Javascript Drum Kit\/app\.styl}line{font-family:\0000323}}
+.drum-keys .key kbd{font-weight:bold}
 /*# sourceMappingURL=app.css.map */

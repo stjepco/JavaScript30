@@ -4,12 +4,15 @@ html,body
 	height 100%
 	
 .drum-keys
+	margin 0 auto
 	height 100%
+	width 700px
 	display flex
 	align-items center
-	justify-content center
+	justify-content space-between
 	
 	.key
+		width 60px
 		background-color #ccc
 		display inline-block
 		padding 5px
@@ -17,3 +20,5 @@ html,body
 		cursor pointer
 		border-radius 3px
 		user-select none
+		kbd
+			font-weight bold
