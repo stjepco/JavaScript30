@@ -1,1 +1,1 @@
-"use strict";window.addEventListener("keydown",function(e){var t=document.querySelector('audio[data-key="'+e.keyCode+'"]');t&&(t.currentTime=0,t.play())});
+"use strict";function playSound(e){var t=document.querySelector('audio[data-key="'+e+'"]');t&&(t.currentTime=0,t.play())}window.addEventListener("keydown",function(e){var t=document.querySelector('audio[data-key="'+e.keyCode+'"]');t&&(t.currentTime=0,t.play())});var drumKeys=document.querySelectorAll(".key");drumKeys.forEach(function(e){return e.addEventListener("click",function(t){playSound(e.dataset.key)})});
