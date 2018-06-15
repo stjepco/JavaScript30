@@ -6,19 +6,32 @@ html,body
 .drum-keys
 	margin 0 auto
 	height 100%
-	width 700px
+	width 800px
 	display flex
 	align-items center
 	justify-content space-between
+	font-family sans-serif
 	
 	.key
-		width 60px
+		// width 70px
+		// width 9%
+		// flex-grow 1
+		margin 0 10px
+		flex-grow: 1;
+		flex-basis: 0;
 		background-color #ccc
 		display inline-block
-		padding 5px
+		padding 10px 0 8px
 		text-align center
 		cursor pointer
 		border-radius 3px
 		user-select none
+		transition all 0.05s ease
 		kbd
+			font-family inherit
 			font-weight bold
+		.sound
+			font-size 14px
+	.pop
+		background-color #999
+		transform scale(0.9)
