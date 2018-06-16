@@ -20,7 +20,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/01-JavascriptDrumKit\/app-min-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -31,17 +31,10 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/01-JavascriptDrumKit\/app-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/01-JavascriptDrumKit\/app.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/01-JavascriptDrumKit\/app.css.map",
-		"oF": 0
 		},
 	"\/01-JavascriptDrumKit\/app.js": {
 		"ft": 64,
@@ -59,7 +52,7 @@
 		"dS": 0,
 		"ft": 8,
 		"iC": 0,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/01-JavascriptDrumKit\/app.css",
 		"oF": 0,
@@ -136,6 +129,49 @@
 		"oAP": "\/01-JavascriptDrumKit\/sounds\/tom.wav",
 		"oF": 1
 		},
+	"\/02-JSClock\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/02-JSClock\/app-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/02-JSClock\/app.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/02-JSClock\/app-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/02-JSClock\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/02-JSClock\/app-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/02-JSClock\/app.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/02-JSClock\/app.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 0
+		},
 	"\/02-JSClock\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -148,6 +184,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/LICENSE": {
@@ -186,7 +229,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 550801772
+	"lastBuiltDate": 550803184
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
