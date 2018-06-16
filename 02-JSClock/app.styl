@@ -43,6 +43,7 @@ body
         height 20px
         border-radius 50%
         transform translate(-50%, -50%)
+        z-index 1
         // background-color transparent
         .hour
             position absolute
@@ -61,24 +62,35 @@ body
         position relative
 
         .hours
-            width 120px
+            width 100px
             height 10px
-            background-color #000
+            background-color #333
             transform-origin 0% 50%
             transform rotate(0deg)
             position absolute
             border-radius 2px
-            top 195px // I dont know why for the moment
+            top 195px /// 200 - Half of the height of the hand
+            left 200px
+        
+        .minutes
+            width 140px
+            height 10px
+            background-color #888
+            transform-origin 0% 50%
+            transform rotate(0deg)
+            position absolute
+            border-radius 2px
+            top 195px /// 200 - Half of the height of the hand
             left 200px
 
         .seconds
-            width 150px
+            width 160px
             height 6px
             border-radius 2px
-            background-color #000
+            background-color tomato
             transform-origin 0% 50%
             transform rotate(0deg)
             position absolute
-            top 197px // I dont know why for the moment
+            top 197px /// 200 - Half of the height of the hand
             left 200px
             transition transform 0.05s cubic-bezier(0.25, 0.13, 0.35, 1.53)
