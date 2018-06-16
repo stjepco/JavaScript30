@@ -4,130 +4,176 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "86AEE384-12E3-411A-83EE-54E87674C9E8"
+		"uuidString": "289F2926-8BE3-4369-B566-C1515F1C464C"
 		}
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/app-min.js": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.gitignore",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/app-min-min.js",
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/app-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app.css": {
+	"\/01-JavascriptDrumKit\/app.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/app-min.css",
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/app-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/app.css.map": {
+	"\/01-JavascriptDrumKit\/app.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/app.css.map",
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/app.css.map",
 		"oF": 0
 		},
-	"\/app.js": {
+	"\/01-JavascriptDrumKit\/app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app-min.js",
+		"oAP": "\/01-JavascriptDrumKit\/app-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/app.styl": {
+	"\/01-JavascriptDrumKit\/app.styl": {
 		"aP": 1,
 		"bl": 0,
-		"dS": 3,
+		"dS": 0,
 		"ft": 8,
 		"iC": 0,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/app.css",
+		"oAP": "\/01-JavascriptDrumKit\/app.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 0
 		},
-	"\/index.html": {
+	"\/01-JavascriptDrumKit\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/index.html",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/boom.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/boom.wav",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/clap.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/clap.wav",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/hihat.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/hihat.wav",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/kick.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/kick.wav",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/openhat.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/openhat.wav",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/ride.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/ride.wav",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/snare.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/snare.wav",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/tink.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/tink.wav",
+		"oF": 1
+		},
+	"\/01-JavascriptDrumKit\/sounds\/tom.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/01-JavascriptDrumKit\/sounds\/tom.wav",
+		"oF": 1
+		},
+	"\/02-JSClock\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/02-JSClock\/index.html",
+		"oF": 1
+		},
+	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/sounds\/boom.wav": {
+	"\/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/boom.wav",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/LICENSE",
+		"oF": 1
 		},
-	"\/sounds\/clap.wav": {
+	"\/README.md": {
 		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/clap.wav",
-		"oF": 0
-		},
-	"\/sounds\/hihat.wav": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/hihat.wav",
-		"oF": 0
-		},
-	"\/sounds\/kick.wav": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/kick.wav",
-		"oF": 0
-		},
-	"\/sounds\/openhat.wav": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/openhat.wav",
-		"oF": 0
-		},
-	"\/sounds\/ride.wav": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/ride.wav",
-		"oF": 0
-		},
-	"\/sounds\/snare.wav": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/snare.wav",
-		"oF": 0
-		},
-	"\/sounds\/tink.wav": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/tink.wav",
-		"oF": 0
-		},
-	"\/sounds\/tom.wav": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sounds\/tom.wav",
-		"oF": 0
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/README.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
@@ -135,11 +181,12 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 550508904,
-	"displayValue": "01 - Javascript Drum Kit",
+	"creationDate": 550801064,
+	"displayValue": "JavaScript30",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-wonka",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "brackets_green",
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 550801772
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -849,7 +896,7 @@
 			"optionString": "{'allowParens': false}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
