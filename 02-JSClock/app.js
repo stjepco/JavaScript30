@@ -17,17 +17,21 @@ function rotateHandle(handle, deg) {
 
 // Set starting positions
 // So it sets it immediately
-rotateHandle(handSeconds, (((seconds/60)*360)-90))
-rotateHandle(handMinutes, (((minutes/60)*360)-90))
-rotateHandle(handHours, (((hours/12)*360)-90))
+let degSeconds = ((seconds/60)*360)-90;
+let degMinutes = (((minutes + (seconds/60))/60)*360)-90;
+let degHours = (((hours + (minutes/60))/12)*360)-90;
+
+rotateHandle(handSeconds, degSeconds)
+rotateHandle(handMinutes, degMinutes)
+rotateHandle(handHours, degHours)
 
 function updateTime() {
   // Continue multiplying seconds for easyier transition
   // Function will fire after 1 second and update then increment second
-  rotateHandle(handSeconds, (((seconds/60)*360)-90))
-  seconds++;
-  rotateHandle(handMinutes, (((minutes+(seconds/60))/60)*360)-90)
-  rotateHandle(handHours, ((hours+(hours/12)*360)-90))
+  seconds++
+  rotateHandle(handSeconds, ((seconds/60)*360)-90)
+  rotateHandle(handMinutes, (((minutes + (seconds/60))/60)*360)-90)
+  rotateHandle(handHours, (((hours + (minutes/60))/12)*360)-90)
 }
 
 setInterval(updateTime, 1000)
