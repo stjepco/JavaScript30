@@ -157,7 +157,7 @@
 		"oAP": "\/02-JSClock\/app-min.js",
 		"oF": 0,
 		"sC": 0,
-		"tS": 0
+		"tS": 1
 		},
 	"\/02-JSClock\/app.styl": {
 		"aP": 1,
@@ -178,6 +178,15 @@
 		"oA": 1,
 		"oAP": "\/02-JSClock\/index.html",
 		"oF": 1
+		},
+	"\/02-JSClock\/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/02-JSClock\/index.html",
+		"oF": 0,
+		"oS": 1
 		},
 	"\/build\/.gitignore": {
 		"cB": 0,
@@ -229,7 +238,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 550803184
+	"lastBuiltDate": 550847023
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
