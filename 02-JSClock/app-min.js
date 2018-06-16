@@ -1,1 +1,1 @@
-"use strict";
+"use strict";function setDate(){var e=new Date,t=e.getSeconds();handSeconds.style.transform="rotate("+(t/60*360-90)+"deg)",console.log(t)}var handSeconds=document.querySelector(".hand.seconds"),handMinutes=document.querySelector(".hand.minutes");setInterval(setDate,1e3);
