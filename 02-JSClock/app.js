@@ -4,6 +4,8 @@
 const handSeconds = document.querySelector(".hand.seconds");
 const handMinutes = document.querySelector(".hand.minutes");
 const handHours = document.querySelector(".hand.hours");
+let timeSlider = document.querySelector("#timeSlider");
+let secInterval = 1000;
 
 // Get curent Date and time
 const currentDay = new Date();
@@ -34,4 +36,39 @@ function updateTime() {
   rotateHandle(handHours, (((hours + (minutes/60))/12)*360)-90)
 }
 
-setInterval(updateTime, 1000)
+let interval = setInterval(updateTime, secInterval)
+
+function startInterval(secInterval){
+  // clearInterval(interval);
+  let interval = setInterval(updateTime, secInterval)
+}
+
+// console.log("sec",secInterval)
+
+
+timeSlider.addEventListener("change", (event) => {
+  console.log("slider", timeSlider.value)
+    if(timeSlider.value === 0){
+      clearInterval(interval);
+      let interval = setInterval(updateTime, secInterval)
+
+    } else if(timeSlider.value > 0) {
+      // console.log("vece od nule", (1000*timeSlider.value))
+      // setInterval(updateTime, (1000*timeSlider.value))
+      // funkcije startInterval(secInterval)
+      clearInterval(interval);
+      startInterval(1000 * timeSlider.value)
+      
+    } else if (timeSlider.value < 0){
+      // console.log("manje od nule", Math.abs((timeSlider.value*10)/1000))
+      // setInterval(updateTime, Math.abs((timeSlider.value*10)/1000))
+      // funkcije startInterval(secInterval)
+      clearInterval(interval);
+      startInterval(Math.abs((timeSlider.value*10)/1000))
+    }
+    
+})
+
+// setInterval(updateTime, secInterval)
+
+// timeSlider.addEventListener("dblclick", (event) => console.log("duble", event))
