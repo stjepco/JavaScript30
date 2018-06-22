@@ -188,6 +188,65 @@
 		"oF": 0,
 		"oS": 1
 		},
+	"\/03-cssVariables\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/03-cssVariables\/app-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/03-cssVariables\/app.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/03-cssVariables\/app-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/03-cssVariables\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/03-cssVariables\/app-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/03-cssVariables\/app.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/03-cssVariables\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/03-cssVariables\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/03-cssVariables\/index.html",
+		"oF": 0
+		},
+	"\/03-cssVariables\/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/03-cssVariables\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -238,7 +297,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 550847023
+	"lastBuiltDate": 551382136
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
