@@ -13,4 +13,5 @@ function changeBg() {
 }
 
 
-slider.addEventListener("change", changeBg)
+// slider.addEventListener("change", changeBg)
+slider.addEventListener("mousemove", changeBg)
